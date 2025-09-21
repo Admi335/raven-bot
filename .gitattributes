@@ -1,0 +1,26 @@
+# Normalize line endings
+* text=auto eol=lf
+
+# Source code: enable diff highlighting
+*.cpp text diff=cpp
+*.cc  text diff=cpp
+*.cxx text diff=cpp
+*.c   text diff=c
+*.h   text diff=cpp
+*.hpp text diff=cpp
+*.hxx text diff=cpp
+
+# Scripts
+*.sh  text eol=lf
+*.bat text eol=crlf
+
+# Mark binary files
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.exe binary
+*.dll binary
+*.so  binary
+*.dylib binary

@@ -1,0 +1,61 @@
+# CMake build artifacts
+/build/
+/cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+install_manifest.txt
+CTestTestfile.cmake
+
+# Binaries and libraries
+*.exe
+*.out
+*.app
+*.dll
+*.so
+*.dylib
+*.a
+*.lib
+*.pdb
+*.idb
+
+# Debug / profiling
+*.prof
+*.gcda
+*.gcno
+*.gcov
+
+# VSCode
+.vscode/
+*.code-workspace
+
+# CLion / JetBrains
+.idea/
+cmake-build-*/
+
+# Visual Studio
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.vcxproj.user
+*.ncb
+*.opendb
+*.VC.db
+
+# Xcode
+*.xcworkspace
+*.xcuserstate
+*.xccheckout
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj   # keep the actual project file
+
+# Editors
+*~
+*.swp
+*.tmp
+*.bak
+
+# OS-specific
+.DS_Store
+Thumbs.db
